@@ -1,4 +1,4 @@
-# Instructions to install the file
+# Instructions to install 
 
 ## Step 1
 run ``` npm install ``` to install the node modules file
