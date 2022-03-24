@@ -1,0 +1,9 @@
+.single-user-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-title {
+  margin-left: 30px;
+}

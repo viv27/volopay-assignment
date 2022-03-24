@@ -1,0 +1,121 @@
+.search-filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search-text {
+  align-items: center;
+}
+.search-text input {
+  margin-right: 5px;
+  padding: 5px;
+}
+.search-filter {
+  margin-left: 20px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.search-filter-button {
+  border: none;
+  background-color: rgb(250, 245, 245);
+  color: rgb(100, 98, 98);
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.search-filter-button:hover {
+  cursor: pointer;
+}
+
+.search-filter-modal {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  right: 20px;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.search-filter-modal-title {
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 0.2px solid lightgray;
+}
+
+.search-filter-modal-type {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+
+  padding: 20px;
+}
+
+.search-filter-modal-type-name {
+  margin-top: 0px;
+  color: rgb(128, 122, 122);
+  font-weight: bold;
+}
+.checkbox {
+  margin-top: 20px;
+}
+.search-filter-modal-type-checkbox {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.subscription-checkbox {
+  margin-right: 80px;
+  font-weight: bolder;
+}
+.burner-checkbox {
+  font-weight: bolder;
+}
+.search-filter-modal-cardholder {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-filter-modal-cardholder-title {
+  margin-left: 20px;
+  color: rgb(128, 122, 122);
+}
+
+.search-filter-modal-cardholder-dropdown {
+  margin-top: 10px;
+}
+
+.search-filter-modal-buttons {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  border-top: 0.2px solid lightgray;
+  padding-top: 25px;
+}
+.search-filter-button-apply,
+.search-filter-button-clear {
+  width: 120px;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+}
+.search-filter-button-apply,
+.search-filter-button-clear {
+  cursor: pointer;
+}
+.search-filter-button-apply {
+  background-color: rgba(255, 51, 102);
+  color: white;
+}
